@@ -1,0 +1,36 @@
+{
+  "population_size": 100,
+  "generations": 150,
+  "method": "ensga2",
+  "local_search": {
+    "neighborhoods": [
+      "ensga2_n1",
+      "ensga2_n2"
+    ],
+    "subset_size": 10,
+    "max_moves": 50,
+    "judgment_threshold": 0.2
+  },
+  "seeds": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010,
+    1011,
+    1012,
+    1013,
+    1014,
+    1015
+  ],
+  "instances": [
+    "ta62"
+  ],
+  "anchor_csv": "results_memetic_tuned_n15/unsga3_anchor.csv",
+  "ref_factor": 1.1
+}

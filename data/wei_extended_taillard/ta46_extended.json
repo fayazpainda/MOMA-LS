@@ -1,0 +1,2849 @@
+{
+    "instance": "ta46",
+    "n_jobs": 30,
+    "n_machines": 20,
+    "jobs": [
+        {
+            "job_id": 0,
+            "operations": [
+                {
+                    "machine_id": 19,
+                    "processing_time": 49
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 91
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 1
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 37
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 32
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 69
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 56
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 65
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 45
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 66
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 17
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 72
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 38
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 64
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 20
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 68
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 71
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 51
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 17
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 26
+                }
+            ],
+            "due_date": 1946.13,
+            "tardiness_penalty_alpha": 10,
+            "earliness_penalty_beta": 0.1
+        },
+        {
+            "job_id": 1,
+            "operations": [
+                {
+                    "machine_id": 10,
+                    "processing_time": 59
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 43
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 90
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 51
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 96
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 62
+                },
+                {
+                    "machine_id": 19,
+                    "processing_time": 35
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 6
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 54
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 81
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 3
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 80
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 94
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 39
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 37
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 21
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 52
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 51
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 36
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 89
+                }
+            ],
+            "due_date": 2103.64,
+            "tardiness_penalty_alpha": 5,
+            "earliness_penalty_beta": 0.2
+        },
+        {
+            "job_id": 2,
+            "operations": [
+                {
+                    "machine_id": 15,
+                    "processing_time": 57
+                },
+                {
+                    "machine_id": 19,
+                    "processing_time": 90
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 34
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 37
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 60
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 51
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 27
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 29
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 53
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 20
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 45
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 16
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 2
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 24
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 34
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 18
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 2
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 75
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 78
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 46
+                }
+            ],
+            "due_date": 1755.38,
+            "tardiness_penalty_alpha": 5,
+            "earliness_penalty_beta": 0.2
+        },
+        {
+            "job_id": 3,
+            "operations": [
+                {
+                    "machine_id": 13,
+                    "processing_time": 33
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 15
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 68
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 19
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 43
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 7
+                },
+                {
+                    "machine_id": 19,
+                    "processing_time": 2
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 19
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 15
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 58
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 80
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 48
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 49
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 82
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 63
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 26
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 4
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 38
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 62
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 41
+                }
+            ],
+            "due_date": 1706.89,
+            "tardiness_penalty_alpha": 1,
+            "earliness_penalty_beta": 1.0
+        },
+        {
+            "job_id": 4,
+            "operations": [
+                {
+                    "machine_id": 3,
+                    "processing_time": 82
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 63
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 72
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 47
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 56
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 89
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 71
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 91
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 75
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 93
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 59
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 58
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 20
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 84
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 63
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 50
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 48
+                },
+                {
+                    "machine_id": 19,
+                    "processing_time": 85
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 39
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 45
+                }
+            ],
+            "due_date": 2354.86,
+            "tardiness_penalty_alpha": 1,
+            "earliness_penalty_beta": 1.0
+        },
+        {
+            "job_id": 5,
+            "operations": [
+                {
+                    "machine_id": 19,
+                    "processing_time": 56
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 32
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 34
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 30
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 40
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 67
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 30
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 49
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 17
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 17
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 15
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 58
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 47
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 15
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 21
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 74
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 85
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 7
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 41
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 79
+                }
+            ],
+            "due_date": 1674.51,
+            "tardiness_penalty_alpha": 10,
+            "earliness_penalty_beta": 0.1
+        },
+        {
+            "job_id": 6,
+            "operations": [
+                {
+                    "machine_id": 15,
+                    "processing_time": 5
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 76
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 48
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 58
+                },
+                {
+                    "machine_id": 19,
+                    "processing_time": 23
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 44
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 63
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 56
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 59
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 72
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 34
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 82
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 86
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 43
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 70
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 41
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 97
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 57
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 38
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 24
+                }
+            ],
+            "due_date": 2350.91,
+            "tardiness_penalty_alpha": 10,
+            "earliness_penalty_beta": 0.1
+        },
+        {
+            "job_id": 7,
+            "operations": [
+                {
+                    "machine_id": 19,
+                    "processing_time": 59
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 34
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 66
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 20
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 13
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 88
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 95
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 6
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 68
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 41
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 51
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 20
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 80
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 1
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 43
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 6
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 37
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 34
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 72
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 62
+                }
+            ],
+            "due_date": 1739.37,
+            "tardiness_penalty_alpha": 10,
+            "earliness_penalty_beta": 0.1
+        },
+        {
+            "job_id": 8,
+            "operations": [
+                {
+                    "machine_id": 12,
+                    "processing_time": 55
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 59
+                },
+                {
+                    "machine_id": 19,
+                    "processing_time": 53
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 74
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 77
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 72
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 76
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 95
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 66
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 2
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 26
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 53
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 41
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 28
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 26
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 69
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 74
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 60
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 79
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 5
+                }
+            ],
+            "due_date": 1990.77,
+            "tardiness_penalty_alpha": 5,
+            "earliness_penalty_beta": 0.2
+        },
+        {
+            "job_id": 9,
+            "operations": [
+                {
+                    "machine_id": 9,
+                    "processing_time": 63
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 94
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 86
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 97
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 94
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 82
+                },
+                {
+                    "machine_id": 19,
+                    "processing_time": 88
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 25
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 10
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 72
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 39
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 49
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 5
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 38
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 85
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 42
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 89
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 22
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 34
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 18
+                }
+            ],
+            "due_date": 2117.49,
+            "tardiness_penalty_alpha": 5,
+            "earliness_penalty_beta": 0.2
+        },
+        {
+            "job_id": 10,
+            "operations": [
+                {
+                    "machine_id": 1,
+                    "processing_time": 62
+                },
+                {
+                    "machine_id": 19,
+                    "processing_time": 65
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 25
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 74
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 48
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 73
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 92
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 69
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 2
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 17
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 79
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 81
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 55
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 37
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 79
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 95
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 94
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 31
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 16
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 44
+                }
+            ],
+            "due_date": 2366.56,
+            "tardiness_penalty_alpha": 1,
+            "earliness_penalty_beta": 1.0
+        },
+        {
+            "job_id": 11,
+            "operations": [
+                {
+                    "machine_id": 11,
+                    "processing_time": 53
+                },
+                {
+                    "machine_id": 19,
+                    "processing_time": 14
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 77
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 92
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 32
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 47
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 93
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 41
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 6
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 71
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 69
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 70
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 96
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 11
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 39
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 10
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 15
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 39
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 98
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 29
+                }
+            ],
+            "due_date": 2270.31,
+            "tardiness_penalty_alpha": 10,
+            "earliness_penalty_beta": 0.1
+        },
+        {
+            "job_id": 12,
+            "operations": [
+                {
+                    "machine_id": 6,
+                    "processing_time": 25
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 80
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 38
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 44
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 78
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 39
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 29
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 40
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 5
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 47
+                },
+                {
+                    "machine_id": 19,
+                    "processing_time": 61
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 47
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 63
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 80
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 46
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 76
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 15
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 54
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 21
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 25
+                }
+            ],
+            "due_date": 1744.23,
+            "tardiness_penalty_alpha": 1,
+            "earliness_penalty_beta": 1.0
+        },
+        {
+            "job_id": 13,
+            "operations": [
+                {
+                    "machine_id": 2,
+                    "processing_time": 53
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 99
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 44
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 54
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 89
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 75
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 26
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 58
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 30
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 17
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 3
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 17
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 14
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 1
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 60
+                },
+                {
+                    "machine_id": 19,
+                    "processing_time": 49
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 76
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 83
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 9
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 32
+                }
+            ],
+            "due_date": 1794.13,
+            "tardiness_penalty_alpha": 5,
+            "earliness_penalty_beta": 0.2
+        },
+        {
+            "job_id": 14,
+            "operations": [
+                {
+                    "machine_id": 9,
+                    "processing_time": 22
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 10
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 94
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 54
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 91
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 99
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 91
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 8
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 39
+                },
+                {
+                    "machine_id": 19,
+                    "processing_time": 59
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 3
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 55
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 29
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 37
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 6
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 64
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 81
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 84
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 29
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 95
+                }
+            ],
+            "due_date": 2367.21,
+            "tardiness_penalty_alpha": 10,
+            "earliness_penalty_beta": 0.1
+        },
+        {
+            "job_id": 15,
+            "operations": [
+                {
+                    "machine_id": 14,
+                    "processing_time": 72
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 67
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 29
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 57
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 9
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 40
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 78
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 99
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 53
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 66
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 85
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 31
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 42
+                },
+                {
+                    "machine_id": 19,
+                    "processing_time": 83
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 46
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 27
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 47
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 60
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 67
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 47
+                }
+            ],
+            "due_date": 2201.52,
+            "tardiness_penalty_alpha": 10,
+            "earliness_penalty_beta": 0.1
+        },
+        {
+            "job_id": 16,
+            "operations": [
+                {
+                    "machine_id": 2,
+                    "processing_time": 45
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 44
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 83
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 8
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 60
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 2
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 10
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 3
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 29
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 9
+                },
+                {
+                    "machine_id": 19,
+                    "processing_time": 37
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 29
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 22
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 97
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 6
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 41
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 81
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 74
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 62
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 95
+                }
+            ],
+            "due_date": 1722.18,
+            "tardiness_penalty_alpha": 10,
+            "earliness_penalty_beta": 0.1
+        },
+        {
+            "job_id": 17,
+            "operations": [
+                {
+                    "machine_id": 5,
+                    "processing_time": 92
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 37
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 32
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 28
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 29
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 62
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 93
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 30
+                },
+                {
+                    "machine_id": 19,
+                    "processing_time": 92
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 45
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 35
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 77
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 46
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 47
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 46
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 81
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 43
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 43
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 30
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 18
+                }
+            ],
+            "due_date": 1878.94,
+            "tardiness_penalty_alpha": 5,
+            "earliness_penalty_beta": 0.2
+        },
+        {
+            "job_id": 18,
+            "operations": [
+                {
+                    "machine_id": 4,
+                    "processing_time": 49
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 86
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 20
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 90
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 4
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 44
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 72
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 22
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 90
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 1
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 30
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 71
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 77
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 62
+                },
+                {
+                    "machine_id": 19,
+                    "processing_time": 48
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 25
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 89
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 6
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 95
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 44
+                }
+            ],
+            "due_date": 1998.93,
+            "tardiness_penalty_alpha": 10,
+            "earliness_penalty_beta": 0.1
+        },
+        {
+            "job_id": 19,
+            "operations": [
+                {
+                    "machine_id": 14,
+                    "processing_time": 62
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 63
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 92
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 16
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 20
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 69
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 65
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 81
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 21
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 54
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 97
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 79
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 37
+                },
+                {
+                    "machine_id": 19,
+                    "processing_time": 97
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 93
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 55
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 70
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 60
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 36
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 57
+                }
+            ],
+            "due_date": 2582.07,
+            "tardiness_penalty_alpha": 1,
+            "earliness_penalty_beta": 1.0
+        },
+        {
+            "job_id": 20,
+            "operations": [
+                {
+                    "machine_id": 17,
+                    "processing_time": 76
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 54
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 76
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 36
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 93
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 67
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 35
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 37
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 44
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 88
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 3
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 22
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 73
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 65
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 26
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 3
+                },
+                {
+                    "machine_id": 19,
+                    "processing_time": 99
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 78
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 38
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 30
+                }
+            ],
+            "due_date": 2340.21,
+            "tardiness_penalty_alpha": 5,
+            "earliness_penalty_beta": 0.2
+        },
+        {
+            "job_id": 21,
+            "operations": [
+                {
+                    "machine_id": 2,
+                    "processing_time": 77
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 82
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 66
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 75
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 95
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 72
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 76
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 52
+                },
+                {
+                    "machine_id": 19,
+                    "processing_time": 72
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 4
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 70
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 76
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 61
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 88
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 39
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 36
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 88
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 69
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 58
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 14
+                }
+            ],
+            "due_date": 2621.74,
+            "tardiness_penalty_alpha": 10,
+            "earliness_penalty_beta": 0.1
+        },
+        {
+            "job_id": 22,
+            "operations": [
+                {
+                    "machine_id": 12,
+                    "processing_time": 65
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 8
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 90
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 57
+                },
+                {
+                    "machine_id": 19,
+                    "processing_time": 73
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 2
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 62
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 48
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 76
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 87
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 53
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 23
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 76
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 74
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 99
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 34
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 71
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 27
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 87
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 46
+                }
+            ],
+            "due_date": 2614.88,
+            "tardiness_penalty_alpha": 1,
+            "earliness_penalty_beta": 1.0
+        },
+        {
+            "job_id": 23,
+            "operations": [
+                {
+                    "machine_id": 13,
+                    "processing_time": 76
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 54
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 75
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 69
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 44
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 26
+                },
+                {
+                    "machine_id": 19,
+                    "processing_time": 63
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 75
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 78
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 78
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 39
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 7
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 73
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 27
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 55
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 23
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 55
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 29
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 56
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 36
+                }
+            ],
+            "due_date": 2007.63,
+            "tardiness_penalty_alpha": 1,
+            "earliness_penalty_beta": 1.0
+        },
+        {
+            "job_id": 24,
+            "operations": [
+                {
+                    "machine_id": 14,
+                    "processing_time": 17
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 42
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 56
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 84
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 44
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 74
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 62
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 55
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 55
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 31
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 71
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 11
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 16
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 29
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 50
+                },
+                {
+                    "machine_id": 19,
+                    "processing_time": 72
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 64
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 42
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 28
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 70
+                }
+            ],
+            "due_date": 1772.15,
+            "tardiness_penalty_alpha": 5,
+            "earliness_penalty_beta": 0.2
+        },
+        {
+            "job_id": 25,
+            "operations": [
+                {
+                    "machine_id": 9,
+                    "processing_time": 76
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 56
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 78
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 2
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 6
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 71
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 19
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 69
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 30
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 87
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 57
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 33
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 87
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 68
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 24
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 31
+                },
+                {
+                    "machine_id": 19,
+                    "processing_time": 56
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 5
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 19
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 82
+                }
+            ],
+            "due_date": 1800.2,
+            "tardiness_penalty_alpha": 10,
+            "earliness_penalty_beta": 0.1
+        },
+        {
+            "job_id": 26,
+            "operations": [
+                {
+                    "machine_id": 2,
+                    "processing_time": 64
+                },
+                {
+                    "machine_id": 19,
+                    "processing_time": 36
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 19
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 90
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 65
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 80
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 26
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 2
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 52
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 72
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 17
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 29
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 60
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 16
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 6
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 91
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 79
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 43
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 99
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 26
+                }
+            ],
+            "due_date": 1939.34,
+            "tardiness_penalty_alpha": 10,
+            "earliness_penalty_beta": 0.1
+        },
+        {
+            "job_id": 27,
+            "operations": [
+                {
+                    "machine_id": 19,
+                    "processing_time": 82
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 80
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 60
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 93
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 54
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 24
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 87
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 63
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 59
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 85
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 13
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 32
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 93
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 33
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 15
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 48
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 72
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 23
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 97
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 76
+                }
+            ],
+            "due_date": 2591.56,
+            "tardiness_penalty_alpha": 5,
+            "earliness_penalty_beta": 0.2
+        },
+        {
+            "job_id": 28,
+            "operations": [
+                {
+                    "machine_id": 17,
+                    "processing_time": 61
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 6
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 87
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 74
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 67
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 44
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 63
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 12
+                },
+                {
+                    "machine_id": 19,
+                    "processing_time": 81
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 61
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 26
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 23
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 76
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 93
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 97
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 75
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 76
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 46
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 66
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 54
+                }
+            ],
+            "due_date": 2452.67,
+            "tardiness_penalty_alpha": 5,
+            "earliness_penalty_beta": 0.2
+        },
+        {
+            "job_id": 29,
+            "operations": [
+                {
+                    "machine_id": 19,
+                    "processing_time": 77
+                },
+                {
+                    "machine_id": 7,
+                    "processing_time": 6
+                },
+                {
+                    "machine_id": 8,
+                    "processing_time": 62
+                },
+                {
+                    "machine_id": 0,
+                    "processing_time": 22
+                },
+                {
+                    "machine_id": 4,
+                    "processing_time": 81
+                },
+                {
+                    "machine_id": 3,
+                    "processing_time": 44
+                },
+                {
+                    "machine_id": 18,
+                    "processing_time": 28
+                },
+                {
+                    "machine_id": 9,
+                    "processing_time": 97
+                },
+                {
+                    "machine_id": 5,
+                    "processing_time": 16
+                },
+                {
+                    "machine_id": 2,
+                    "processing_time": 7
+                },
+                {
+                    "machine_id": 12,
+                    "processing_time": 34
+                },
+                {
+                    "machine_id": 11,
+                    "processing_time": 3
+                },
+                {
+                    "machine_id": 13,
+                    "processing_time": 93
+                },
+                {
+                    "machine_id": 17,
+                    "processing_time": 12
+                },
+                {
+                    "machine_id": 15,
+                    "processing_time": 35
+                },
+                {
+                    "machine_id": 6,
+                    "processing_time": 88
+                },
+                {
+                    "machine_id": 14,
+                    "processing_time": 9
+                },
+                {
+                    "machine_id": 10,
+                    "processing_time": 93
+                },
+                {
+                    "machine_id": 1,
+                    "processing_time": 87
+                },
+                {
+                    "machine_id": 16,
+                    "processing_time": 51
+                }
+            ],
+            "due_date": 1973.33,
+            "tardiness_penalty_alpha": 10,
+            "earliness_penalty_beta": 0.1
+        }
+    ],
+    "machines": [
+        {
+            "machine_id": 0,
+            "working_power_kw": 0.9397,
+            "idle_power_kw": 0.619,
+            "standby_power_kw": 0.4805,
+            "rampup_off_power_kw": 0.8,
+            "rampup_standby_power_kw": 0.8,
+            "rampup_off_time": 51.3717,
+            "rampup_standby_time": 25.6858
+        },
+        {
+            "machine_id": 1,
+            "working_power_kw": 0.9626,
+            "idle_power_kw": 0.6527,
+            "standby_power_kw": 0.4393,
+            "rampup_off_power_kw": 0.8,
+            "rampup_standby_power_kw": 0.8,
+            "rampup_off_time": 51.3717,
+            "rampup_standby_time": 25.6858
+        },
+        {
+            "machine_id": 2,
+            "working_power_kw": 0.9852,
+            "idle_power_kw": 0.6686,
+            "standby_power_kw": 0.3271,
+            "rampup_off_power_kw": 0.8,
+            "rampup_standby_power_kw": 0.8,
+            "rampup_off_time": 51.3717,
+            "rampup_standby_time": 25.6858
+        },
+        {
+            "machine_id": 3,
+            "working_power_kw": 0.9992,
+            "idle_power_kw": 0.6122,
+            "standby_power_kw": 0.3281,
+            "rampup_off_power_kw": 0.8,
+            "rampup_standby_power_kw": 0.8,
+            "rampup_off_time": 51.3717,
+            "rampup_standby_time": 25.6858
+        },
+        {
+            "machine_id": 4,
+            "working_power_kw": 0.9173,
+            "idle_power_kw": 0.641,
+            "standby_power_kw": 0.434,
+            "rampup_off_power_kw": 0.8,
+            "rampup_standby_power_kw": 0.8,
+            "rampup_off_time": 51.3717,
+            "rampup_standby_time": 25.6858
+        },
+        {
+            "machine_id": 5,
+            "working_power_kw": 0.9139,
+            "idle_power_kw": 0.6164,
+            "standby_power_kw": 0.3929,
+            "rampup_off_power_kw": 0.8,
+            "rampup_standby_power_kw": 0.8,
+            "rampup_off_time": 51.3717,
+            "rampup_standby_time": 25.6858
+        },
+        {
+            "machine_id": 6,
+            "working_power_kw": 0.9861,
+            "idle_power_kw": 0.606,
+            "standby_power_kw": 0.4805,
+            "rampup_off_power_kw": 0.8,
+            "rampup_standby_power_kw": 0.8,
+            "rampup_off_time": 51.3717,
+            "rampup_standby_time": 25.6858
+        },
+        {
+            "machine_id": 7,
+            "working_power_kw": 0.9247,
+            "idle_power_kw": 0.6879,
+            "standby_power_kw": 0.3439,
+            "rampup_off_power_kw": 0.8,
+            "rampup_standby_power_kw": 0.8,
+            "rampup_off_time": 51.3717,
+            "rampup_standby_time": 25.6858
+        },
+        {
+            "machine_id": 8,
+            "working_power_kw": 0.992,
+            "idle_power_kw": 0.6988,
+            "standby_power_kw": 0.4952,
+            "rampup_off_power_kw": 0.8,
+            "rampup_standby_power_kw": 0.8,
+            "rampup_off_time": 51.3717,
+            "rampup_standby_time": 25.6858
+        },
+        {
+            "machine_id": 9,
+            "working_power_kw": 0.9648,
+            "idle_power_kw": 0.6952,
+            "standby_power_kw": 0.4568,
+            "rampup_off_power_kw": 0.8,
+            "rampup_standby_power_kw": 0.8,
+            "rampup_off_time": 51.3717,
+            "rampup_standby_time": 25.6858
+        },
+        {
+            "machine_id": 10,
+            "working_power_kw": 0.9025,
+            "idle_power_kw": 0.6498,
+            "standby_power_kw": 0.3756,
+            "rampup_off_power_kw": 0.8,
+            "rampup_standby_power_kw": 0.8,
+            "rampup_off_time": 51.3717,
+            "rampup_standby_time": 25.6858
+        },
+        {
+            "machine_id": 11,
+            "working_power_kw": 0.9385,
+            "idle_power_kw": 0.6501,
+            "standby_power_kw": 0.3982,
+            "rampup_off_power_kw": 0.8,
+            "rampup_standby_power_kw": 0.8,
+            "rampup_off_time": 51.3717,
+            "rampup_standby_time": 25.6858
+        },
+        {
+            "machine_id": 12,
+            "working_power_kw": 0.9382,
+            "idle_power_kw": 0.6139,
+            "standby_power_kw": 0.3857,
+            "rampup_off_power_kw": 0.8,
+            "rampup_standby_power_kw": 0.8,
+            "rampup_off_time": 51.3717,
+            "rampup_standby_time": 25.6858
+        },
+        {
+            "machine_id": 13,
+            "working_power_kw": 0.9311,
+            "idle_power_kw": 0.6852,
+            "standby_power_kw": 0.3041,
+            "rampup_off_power_kw": 0.8,
+            "rampup_standby_power_kw": 0.8,
+            "rampup_off_time": 51.3717,
+            "rampup_standby_time": 25.6858
+        },
+        {
+            "machine_id": 14,
+            "working_power_kw": 0.9133,
+            "idle_power_kw": 0.6554,
+            "standby_power_kw": 0.3171,
+            "rampup_off_power_kw": 0.8,
+            "rampup_standby_power_kw": 0.8,
+            "rampup_off_time": 51.3717,
+            "rampup_standby_time": 25.6858
+        },
+        {
+            "machine_id": 15,
+            "working_power_kw": 0.9286,
+            "idle_power_kw": 0.6707,
+            "standby_power_kw": 0.4952,
+            "rampup_off_power_kw": 0.8,
+            "rampup_standby_power_kw": 0.8,
+            "rampup_off_time": 51.3717,
+            "rampup_standby_time": 25.6858
+        },
+        {
+            "machine_id": 16,
+            "working_power_kw": 0.9365,
+            "idle_power_kw": 0.6025,
+            "standby_power_kw": 0.3929,
+            "rampup_off_power_kw": 0.8,
+            "rampup_standby_power_kw": 0.8,
+            "rampup_off_time": 51.3717,
+            "rampup_standby_time": 25.6858
+        },
+        {
+            "machine_id": 17,
+            "working_power_kw": 0.9359,
+            "idle_power_kw": 0.6327,
+            "standby_power_kw": 0.4247,
+            "rampup_off_power_kw": 0.8,
+            "rampup_standby_power_kw": 0.8,
+            "rampup_off_time": 51.3717,
+            "rampup_standby_time": 25.6858
+        },
+        {
+            "machine_id": 18,
+            "working_power_kw": 0.9389,
+            "idle_power_kw": 0.6347,
+            "standby_power_kw": 0.4374,
+            "rampup_off_power_kw": 0.8,
+            "rampup_standby_power_kw": 0.8,
+            "rampup_off_time": 51.3717,
+            "rampup_standby_time": 25.6858
+        },
+        {
+            "machine_id": 19,
+            "working_power_kw": 0.9519,
+            "idle_power_kw": 0.6571,
+            "standby_power_kw": 0.3671,
+            "rampup_off_power_kw": 0.8,
+            "rampup_standby_power_kw": 0.8,
+            "rampup_off_time": 51.3717,
+            "rampup_standby_time": 25.6858
+        }
+    ]
+}

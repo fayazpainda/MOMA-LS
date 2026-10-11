@@ -1,0 +1,71 @@
+================================================================================
+MEMETIC (MOMA-LS) vs VANILLA U-NSGA-III  --  equal decode budget
+================================================================================
+Instances: ta11, ta12, ta21, ta22, ta31, ta32, ta41, ta42, ta61, ta62
+Seeds: [1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015]
+Memetic generations: 150 (vanilla matched per seed by decodes)
+Local search: neighborhoods=n5 | subset_size=10 max_moves=50 inject=True
+Scoring: semi-active search + right-shift NEC reporting column (best_NEC_rightshift), symmetric across configs
+Result dir: results_memetic_tuned_n15
+
+################################################################################
+INSTANCE ta11 (jobs=20, machines=15)
+################################################################################
+ta11 seeds:   0%|          | 0/15 [00:00<?, ?seed/s]
+ta11 memetic seed=1001:   0%|          | 0/150 [00:00<?, ?gen/s][A
+ta11 memetic seed=1001:   1%|          | 1/150 [00:00<00:09, 15.21gen/s, Cmax=2537, NEC=4493, TWET=67328, dec=0, front=3][A
+ta11 memetic seed=1001:   1%|▏         | 2/150 [00:00<00:59,  2.49gen/s, Cmax=2537, NEC=4493, TWET=67328, dec=0, front=3][A
+ta11 memetic seed=1001:   1%|▏         | 2/150 [00:00<00:59,  2.49gen/s, Cmax=1966, NEC=3653, TWET=33935, dec=1765, front=4][A
+ta11 memetic seed=1001:   2%|▏         | 3/150 [00:01<01:14,  1.97gen/s, Cmax=1966, NEC=3653, TWET=33935, dec=1765, front=4][A
+ta11 memetic seed=1001:   2%|▏         | 3/150 [00:01<01:14,  1.97gen/s, Cmax=1936, NEC=3621, TWET=31479, dec=3377, front=4][A
+ta11 memetic seed=1001:   3%|▎         | 4/150 [00:02<01:19,  1.84gen/s, Cmax=1936, NEC=3621, TWET=31479, dec=3377, front=4][A
+ta11 memetic seed=1001:   3%|▎         | 4/150 [00:02<01:19,  1.84gen/s, Cmax=1932, NEC=3612, TWET=31123, dec=4848, front=3][A
+ta11 memetic seed=1001:   3%|▎         | 5/150 [00:02<01:18,  1.85gen/s, Cmax=1932, NEC=3612, TWET=31123, dec=4848, front=3][A
+ta11 memetic seed=1001:   3%|▎         | 5/150 [00:02<01:18,  1.85gen/s, Cmax=1932, NEC=3612, TWET=31123, dec=6122, front=3][A
+ta11 memetic seed=1001:   4%|▍         | 6/150 [00:03<01:14,  1.94gen/s, Cmax=1932, NEC=3612, TWET=31123, dec=6122, front=3][A
+ta11 memetic seed=1001:   4%|▍         | 6/150 [00:03<01:14,  1.94gen/s, Cmax=1932, NEC=3612, TWET=31123, dec=7166, front=3][A
+ta11 memetic seed=1001:   5%|▍         | 7/150 [00:03<01:06,  2.17gen/s, Cmax=1932, NEC=3612, TWET=31123, dec=7166, front=3][A
+ta11 memetic seed=1001:   5%|▍         | 7/150 [00:03<01:06,  2.17gen/s, Cmax=1904, NEC=3583, TWET=28738, dec=7948, front=3][A
+ta11 memetic seed=1001:   5%|▌         | 8/150 [00:03<00:57,  2.48gen/s, Cmax=1904, NEC=3583, TWET=28738, dec=7948, front=3][A
+ta11 memetic seed=1001:   5%|▌         | 8/150 [00:03<00:57,  2.48gen/s, Cmax=1894, NEC=3521, TWET=27809, dec=8407, front=6][A
+ta11 memetic seed=1001:   6%|▌         | 9/150 [00:03<00:51,  2.75gen/s, Cmax=1894, NEC=3521, TWET=27809, dec=8407, front=6][A
+ta11 memetic seed=1001:   6%|▌         | 9/150 [00:03<00:51,  2.75gen/s, Cmax=1894, NEC=3521, TWET=27690, dec=8808, front=8][A
+ta11 memetic seed=1001:   7%|▋         | 10/150 [00:04<00:46,  3.00gen/s, Cmax=1894, NEC=3521, TWET=27690, dec=8808, front=8][A
+ta11 memetic seed=1001:   7%|▋         | 10/150 [00:04<00:46,  3.00gen/s, Cmax=1886, NEC=3456, TWET=27690, dec=9203, front=7][A
+ta11 memetic seed=1001:   7%|▋         | 11/150 [00:04<00:43,  3.18gen/s, Cmax=1886, NEC=3456, TWET=27690, dec=9203, front=7][A
+ta11 memetic seed=1001:   7%|▋         | 11/150 [00:04<00:43,  3.18gen/s, Cmax=1863, NEC=3413, TWET=26122, dec=9608, front=5][A
+ta11 memetic seed=1001:   8%|▊         | 12/150 [00:04<00:41,  3.34gen/s, Cmax=1863, NEC=3413, TWET=26122, dec=9608, front=5][A
+ta11 memetic seed=1001:   8%|▊         | 12/150 [00:04<00:41,  3.34gen/s, Cmax=1863, NEC=3379, TWET=26122, dec=10051, front=7][A
+ta11 memetic seed=1001:   9%|▊         | 13/150 [00:05<00:39,  3.43gen/s, Cmax=1863, NEC=3379, TWET=26122, dec=10051, front=7][A
+ta11 memetic seed=1001:   9%|▊         | 13/150 [00:05<00:39,  3.43gen/s, Cmax=1863, NEC=3379, TWET=26122, dec=10473, front=8][A
+ta11 memetic seed=1001:   9%|▉         | 14/150 [00:05<00:39,  3.44gen/s, Cmax=1863, NEC=3379, TWET=26122, dec=10473, front=8][A
+ta11 memetic seed=1001:   9%|▉         | 14/150 [00:05<00:39,  3.44gen/s, Cmax=1863, NEC=3379, TWET=26122, dec=10920, front=6][A
+ta11 memetic seed=1001:  10%|█         | 15/150 [00:05<00:38,  3.52gen/s, Cmax=1863, NEC=3379, TWET=26122, dec=10920, front=6][A
+ta11 memetic seed=1001:  10%|█         | 15/150 [00:05<00:38,  3.52gen/s, Cmax=1863, NEC=3379, TWET=25586, dec=11340, front=9][A
+ta11 memetic seed=1001:  11%|█         | 16/150 [00:05<00:37,  3.55gen/s, Cmax=1863, NEC=3379, TWET=25586, dec=11340, front=9][A
+ta11 memetic seed=1001:  11%|█         | 16/150 [00:05<00:37,  3.55gen/s, Cmax=1863, NEC=3379, TWET=25586, dec=11732, front=8][A
+ta11 memetic seed=1001:  11%|█▏        | 17/150 [00:06<00:37,  3.52gen/s, Cmax=1863, NEC=3379, TWET=25586, dec=11732, front=8][A
+ta11 memetic seed=1001:  11%|█▏        | 17/150 [00:06<00:37,  3.52gen/s, Cmax=1863, NEC=3379, TWET=25586, dec=12132, front=8][A
+ta11 memetic seed=1001:  12%|█▏        | 18/150 [00:06<00:37,  3.50gen/s, Cmax=1863, NEC=3379, TWET=25586, dec=12132, front=8][A
+ta11 memetic seed=1001:  12%|█▏        | 18/150 [00:06<00:37,  3.50gen/s, Cmax=1863, NEC=3379, TWET=25586, dec=12532, front=8][A
+ta11 memetic seed=1001:  13%|█▎        | 19/150 [00:06<00:37,  3.51gen/s, Cmax=1863, NEC=3379, TWET=25586, dec=12532, front=8][A
+ta11 memetic seed=1001:  13%|█▎        | 19/150 [00:06<00:37,  3.51gen/s, Cmax=1863, NEC=3379, TWET=25586, dec=12924, front=8][A
+ta11 memetic seed=1001:  13%|█▎        | 20/150 [00:07<00:37,  3.49gen/s, Cmax=1863, NEC=3379, TWET=25586, dec=12924, front=8][A
+ta11 memetic seed=1001:  13%|█▎        | 20/150 [00:07<00:37,  3.49gen/s, Cmax=1863, NEC=3379, TWET=25586, dec=13328, front=8][A
+ta11 memetic seed=1001:  14%|█▍        | 21/150 [00:07<00:36,  3.49gen/s, Cmax=1863, NEC=3379, TWET=25586, dec=13328, front=8][A
+ta11 memetic seed=1001:  14%|█▍        | 21/150 [00:07<00:36,  3.49gen/s, Cmax=1847, NEC=3379, TWET=25177, dec=13724, front=10][A
+ta11 memetic seed=1001:  15%|█▍        | 22/150 [00:07<00:36,  3.49gen/s, Cmax=1847, NEC=3379, TWET=25177, dec=13724, front=10][A
+ta11 memetic seed=1001:  15%|█▍        | 22/150 [00:07<00:36,  3.49gen/s, Cmax=1847, NEC=3379, TWET=25177, dec=14124, front=11][A
+ta11 memetic seed=1001:  15%|█▌        | 23/150 [00:07<00:36,  3.48gen/s, Cmax=1847, NEC=3379, TWET=25177, dec=14124, front=11][A
+ta11 memetic seed=1001:  15%|█▌        | 23/150 [00:07<00:36,  3.48gen/s, Cmax=1847, NEC=3341, TWET=25177, dec=14524, front=9] [A
+ta11 memetic seed=1001:  16%|█▌        | 24/150 [00:08<00:35,  3.50gen/s, Cmax=1847, NEC=3341, TWET=25177, dec=14524, front=9][A
+ta11 memetic seed=1001:  16%|█▌        | 24/150 [00:08<00:35,  3.50gen/s, Cmax=1847, NEC=3341, TWET=25177, dec=14912, front=9][A
+ta11 memetic seed=1001:  17%|█▋        | 25/150 [00:08<00:34,  3.58gen/s, Cmax=1847, NEC=3341, TWET=25177, dec=14912, front=9][A
+ta11 memetic seed=1001:  17%|█▋        | 25/150 [00:08<00:34,  3.58gen/s, Cmax=1847, NEC=3341, TWET=25103, dec=15311, front=12][A
+ta11 memetic seed=1001:  17%|█▋        | 26/150 [00:08<00:34,  3.56gen/s, Cmax=1847, NEC=3341, TWET=25103, dec=15311, front=12][A
+ta11 memetic seed=1001:  17%|█▋        | 26/150 [00:08<00:34,  3.56gen/s, Cmax=1847, NEC=3341, TWET=24653, dec=15719, front=15][A
+ta11 memetic seed=1001:  18%|█▊        | 27/150 [00:08<00:34,  3.59gen/s, Cmax=1847, NEC=3341, TWET=24653, dec=15719, front=15][A
+ta11 memetic seed=1001:  18%|█▊        | 27/150 [00:08<00:34,  3.59gen/s, Cmax=1847, NEC=3337, TWET=24586, dec=16112, front=16][A
+ta11 memetic seed=1001:  19%|█▊        | 28/150 [00:09<00:33,  3.61gen/s, Cmax=1847, NEC=3337, TWET=24586, dec=16112, front=16][A
+ta11 memetic seed=1001:  19%|█▊        | 28/150 [00:09<00:33,  3.61gen/s, Cmax=1847, NEC=3335, TWET=24586, dec=16531, front=13][A/opt/homebrew/Cellar/python@3.11/3.11.16/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
