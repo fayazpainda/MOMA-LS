@@ -4,7 +4,7 @@ environmental selection correctness, plus end-to-end integration."""
 import random
 import time
 
-from claude_dataset import load_claude_extended_instance
+from wei_extended_loader import load_wei_extended_instance
 from pareto import get_pareto_front
 from pareto_local_search import ParetoLocalSearch
 from sms_emoa import (
@@ -99,7 +99,7 @@ def test_environmental_selection_reduces_splitting_front():
 # ------------------------------------------------------------
 
 def test_run_sms_emoa_produces_feasible_population():
-    instance, due_dates, weights, machines = load_claude_extended_instance("ta01")
+    instance, due_dates, weights, machines = load_wei_extended_instance("ta01")
 
     random.seed(7)
     population = run_SMS_EMOA(
@@ -119,7 +119,7 @@ def test_run_sms_emoa_produces_feasible_population():
 
 
 def test_run_sms_emoa_with_local_search_hook():
-    instance, due_dates, weights, machines = load_claude_extended_instance("ta01")
+    instance, due_dates, weights, machines = load_wei_extended_instance("ta01")
     pls = ParetoLocalSearch(subset_size=4, max_moves=3)
 
     random.seed(13)

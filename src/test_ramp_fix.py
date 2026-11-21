@@ -30,7 +30,7 @@ import random
 import statistics
 from dataclasses import replace
 
-from claude_dataset import load_claude_extended_instance
+from wei_extended_loader import load_wei_extended_instance
 from unsga3 import run_UNSGAIII
 from evaluation import evaluate_population
 from decoder import decode
@@ -90,7 +90,7 @@ def main():
     rows = []
 
     for name in names:
-        instance, due, wts, machines = load_claude_extended_instance(name)
+        instance, due, wts, machines = load_wei_extended_instance(name)
 
         schedule = best_nec_schedule(instance, due, wts, machines)
 

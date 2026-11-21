@@ -2,7 +2,7 @@
 
 import random
 
-from claude_dataset import load_claude_extended_instance
+from wei_extended_loader import load_wei_extended_instance
 from chromosome import generate_chromosome
 from evaluation import evaluate_individual
 from unsga3 import run_UNSGAIII
@@ -77,7 +77,7 @@ def test_select_subset_includes_front_then_fills():
 def test_improve_whole_population_never_worsens_best_objectives():
     # subset = whole population, so no injection: every solution can only move
     # to a dominating point. Hence each objective's best cannot worsen.
-    instance, due_dates, weights, machines = load_claude_extended_instance("ta01")
+    instance, due_dates, weights, machines = load_wei_extended_instance("ta01")
     random.seed(7)
     pop = [generate_chromosome(instance) for _ in range(12)]
 
@@ -103,7 +103,7 @@ def test_improve_whole_population_never_worsens_best_objectives():
 
 
 def test_improve_preserves_size_and_feasibility_with_injection():
-    instance, due_dates, weights, machines = load_claude_extended_instance("ta01")
+    instance, due_dates, weights, machines = load_wei_extended_instance("ta01")
     required = _required_multiset(instance)
     random.seed(3)
     pop = [generate_chromosome(instance) for _ in range(16)]
@@ -121,7 +121,7 @@ def test_improve_preserves_size_and_feasibility_with_injection():
 # ------------------------------------------------------------
 
 def test_unsga3_runs_with_local_search_hook():
-    instance, due_dates, weights, machines = load_claude_extended_instance("ta01")
+    instance, due_dates, weights, machines = load_wei_extended_instance("ta01")
     pls = ParetoLocalSearch(subset_size=4, max_moves=3)
 
     random.seed(11)

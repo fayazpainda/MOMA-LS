@@ -7,11 +7,11 @@ genuinely different objective from the (inconsistent) makespan reading.
 from chromosome import generate_chromosome
 from decoder import decode
 from objectives import calculate_makespan, calculate_twet
-from claude_dataset import load_claude_extended_instance
+from wei_extended_loader import load_wei_extended_instance
 
 
 def test_twet_per_job_is_default_and_distinct():
-    instance, due_dates, weights, _machines = load_claude_extended_instance("ta11")
+    instance, due_dates, weights, _machines = load_wei_extended_instance("ta11")
 
     schedule = decode(instance, generate_chromosome(instance))
 

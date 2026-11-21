@@ -344,7 +344,7 @@ def main():
         print("  - inspect them, then re-run with --install to")
         print(f"    back up and replace '{INSTALL_TARGET}', OR")
         print("  - pass json_directory=\"" + args.out + "\" to")
-        print("    load_claude_extended_instance().")
+        print("    load_wei_extended_instance().")
 
     print("=" * 78)
 

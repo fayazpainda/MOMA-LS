@@ -61,7 +61,7 @@ except ImportError:  # graceful fallback if tqdm is unavailable
 
     tqdm.write = print
 
-from claude_dataset import load_claude_extended_instance
+from wei_extended_loader import load_wei_extended_instance
 from nsga2 import run_NSGAII
 from evaluation import evaluate_population
 from hypervolume import normalized_hypervolume
@@ -183,7 +183,7 @@ def process_instance(instance_name, seeds, generations, subset_size,
     runs_csv = result_dir / "ensga2_runs.csv"
     pareto_csv = result_dir / "ensga2_final_pareto.csv"
 
-    bundle = load_claude_extended_instance(instance_name)
+    bundle = load_wei_extended_instance(instance_name)
 
     all_vectors = []
     records = []

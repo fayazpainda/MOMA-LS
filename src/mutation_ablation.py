@@ -32,7 +32,7 @@ import random
 import statistics
 from pathlib import Path
 
-from claude_dataset import load_claude_extended_instance
+from wei_extended_loader import load_wei_extended_instance
 from unsga3 import run_UNSGAIII
 from evaluation import evaluate_population
 from nsga3_selection import fast_non_dominated_sort
@@ -214,7 +214,7 @@ def main():
         completed = load_completed()
 
         for instance_name in instances:
-            instance, due_dates, weights, machines = load_claude_extended_instance(instance_name)
+            instance, due_dates, weights, machines = load_wei_extended_instance(instance_name)
 
             for seed in seeds:
                 for operator_name, mutation_fn in OPERATORS.items():

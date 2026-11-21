@@ -2,7 +2,7 @@
 
 import random
 
-from claude_dataset import load_claude_extended_instance
+from wei_extended_loader import load_wei_extended_instance
 from chromosome import generate_chromosome
 from decoder import decode
 from ls_energy import (
@@ -18,7 +18,7 @@ def _required_multiset(instance):
 
 
 def test_swap_positions_preserves_multiset():
-    instance, *_ = load_claude_extended_instance("ta01")
+    instance, *_ = load_wei_extended_instance("ta01")
     random.seed(0)
     chromo = generate_chromosome(instance)
     child = _swap_positions(chromo, 0, 5)
@@ -29,7 +29,7 @@ def test_swap_positions_preserves_multiset():
 
 
 def test_machines_by_idle_sorted_descending():
-    instance, *_ = load_claude_extended_instance("ta01")
+    instance, *_ = load_wei_extended_instance("ta01")
     random.seed(1)
     chromo = generate_chromosome(instance)
     schedule = decode(instance, chromo)
@@ -42,7 +42,7 @@ def test_machines_by_idle_sorted_descending():
 
 
 def test_energy_neighbors_feasible_bounded_decodable():
-    instance, due_dates, weights, machines = load_claude_extended_instance("ta01")
+    instance, due_dates, weights, machines = load_wei_extended_instance("ta01")
     required = _required_multiset(instance)
     random.seed(2)
     chromo = generate_chromosome(instance)

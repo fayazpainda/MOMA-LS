@@ -4,7 +4,7 @@ import random
 
 import pytest
 
-from claude_dataset import load_claude_extended_instance
+from wei_extended_loader import load_wei_extended_instance
 from chromosome import generate_chromosome
 from decoder import decode, ScheduledOperation, Schedule
 from ls_tardiness import tardy_job_sinks, tardiness_neighbors
@@ -52,7 +52,7 @@ def test_no_tardy_jobs_gives_no_sinks():
 # ------------------------------------------------------------
 
 def test_tardiness_neighbors_require_context():
-    instance, *_ = load_claude_extended_instance("ta01")
+    instance, *_ = load_wei_extended_instance("ta01")
     random.seed(0)
     chromo = generate_chromosome(instance)
     with pytest.raises(ValueError):
@@ -60,7 +60,7 @@ def test_tardiness_neighbors_require_context():
 
 
 def test_tardiness_neighbors_feasible_and_decodable():
-    instance, due_dates, weights, machines = load_claude_extended_instance("ta01")
+    instance, due_dates, weights, machines = load_wei_extended_instance("ta01")
     required = _required_multiset(instance)
 
     neighbors = []

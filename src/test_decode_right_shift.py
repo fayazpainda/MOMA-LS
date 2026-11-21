@@ -9,7 +9,7 @@ schedule.
 
 import random
 
-from claude_dataset import load_claude_extended_instance
+from wei_extended_loader import load_wei_extended_instance
 from chromosome import generate_chromosome
 from decoder import decode, decode_right_shift
 from objectives import job_completion_times, calculate_makespan
@@ -49,7 +49,7 @@ def test_right_shift_preserves_makespan_and_completions_and_is_feasible():
     evaluation level, because the raw transform can fragment idle — see
     decode_right_shift's docstring.)"""
 
-    instance, *_ = load_claude_extended_instance("ta01")
+    instance, *_ = load_wei_extended_instance("ta01")
 
     for seed in range(20):
         random.seed(seed)
@@ -80,7 +80,7 @@ def test_evaluate_right_shift_is_pareto_safe():
     and TWET are identical to the semi-active evaluation, and NEC never exceeds
     it (a pure decrease or no-op)."""
 
-    instance, due_dates, weights, machines = load_claude_extended_instance("ta01")
+    instance, due_dates, weights, machines = load_wei_extended_instance("ta01")
 
     improved_at_least_once = False
 
@@ -115,7 +115,7 @@ def test_right_shift_only_moves_operations_later():
     """A right shift never starts an operation earlier than the semi-active
     decode did (it is a pure delay within slack)."""
 
-    instance, *_ = load_claude_extended_instance("ta01")
+    instance, *_ = load_wei_extended_instance("ta01")
 
     for seed in range(10):
         random.seed(100 + seed)
@@ -133,7 +133,7 @@ def test_right_shift_does_not_touch_the_sequence():
     """decode_right_shift changes start times only; the operation sequence (the
     decision variable) is untouched, so critical-path structure is unaffected."""
 
-    instance, *_ = load_claude_extended_instance("ta01")
+    instance, *_ = load_wei_extended_instance("ta01")
     random.seed(7)
     chromo = generate_chromosome(instance)
 
